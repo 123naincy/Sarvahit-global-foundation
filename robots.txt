@@ -1,4 +1,12 @@
+# Sarvahit Global Foundation
+# https://sarvahitglobalfoundation.com
+#
+# All pages, CSS, JS and images are open to crawlers.
+# 404.html, thankyou.html and events.html are hidden from search with a
+# noindex tag instead of Disallow, because crawlers must be able to fetch
+# a page to see its noindex tag.
+
 User-agent: *
 Allow: /
 
-Sitemap: https://sarvhitglobal.com/sitemap.xml
+Sitemap: https://sarvahitglobalfoundation.com/sitemap.xml

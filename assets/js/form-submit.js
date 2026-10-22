@@ -25,6 +25,7 @@ function submitToGoogleSheet(form, formType) {
             formType: formType,
 
             fullName:
+                form.querySelector('[name="fullName"]')?.value ||
                 form.querySelector('[name="full-name"]')?.value ||
                 form.querySelector('[name="name"]')?.value ||
                 "",
@@ -62,9 +63,6 @@ function submitToGoogleSheet(form, formType) {
                 window.location.href
 
         };
-
-
-        console.log("Sending Lead:", data);
 
 
         try {

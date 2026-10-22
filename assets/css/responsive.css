@@ -969,3 +969,69 @@
     line-height: 34px;
   }
 }
+
+.related-causes {
+  padding: 8px 0 48px;
+}
+
+.related-causes p {
+  margin: 0;
+}
+
+.privacy p,
+.privacy li {
+  text-transform: none;
+}
+
+.privacy .policy-updated {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.privacy .privacy-group ul {
+  margin-top: 16px;
+  padding-left: 22px;
+  list-style: disc;
+}
+
+.privacy .privacy-group li {
+  margin-top: 8px;
+  font-size: 18px;
+  list-style: disc;
+}
+
+.privacy .privacy-group a {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.team--founders {
+  padding-bottom: 0;
+}
+
+.team--founders .team__single-thumb {
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+}
+
+.team--founders .team__single-thumb img {
+  display: block;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.team .team__single-content .founder-name {
+  margin-top: -8px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 800;
+  color: var(--secondary-color);
+  text-transform: none;
+}
+
+.team .team__single:hover .team__single-content .founder-name {
+  color: var(--white);
+}
